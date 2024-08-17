@@ -1,9 +1,12 @@
+import Main from "./Components/Main/Main";
+import Sidebar from "./Components/Sidebar/Sidebar";
 
 
 const App = () => {
   return (
-    <div>
-      Hello world
+    <div className="app">
+      <Sidebar/>
+      <Main/>
     </div>
   );
 };
